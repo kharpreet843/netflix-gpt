@@ -1,8 +1,15 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Header from './Header';
+import useMovies from './hooks/useMovies';
+import MainContainer from './MainContainer';
 const Browse = () => {
+  useMovies();
   return (
-    <div>Browse</div>
+    <div>    <Header/>
+    <MainContainer/>
+    
+    
+    </div>
   )
 }
 
