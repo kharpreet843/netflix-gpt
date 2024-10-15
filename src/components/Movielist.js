@@ -1,7 +1,7 @@
 import React from 'react'
 import MovieCard from './MovieCard'
 const Movielist = ({title,movies}) => {
-    console.log(movies)
+   // console.log(movies)
   return (
     <div>
           <div className="p-4">
